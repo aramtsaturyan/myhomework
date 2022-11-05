@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-block{
+    width: 100%;
+    height: 700px;
+  
+   background-image: url("images/Hero\ Content.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 100px;
+}
+
+.first-main{
+    width: 100%;
+    height: 100px;
+    /* border: solid; */
+    display: flex;
+    
+}
+
+
+.main-logo{
+    width: 15%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+    height: 10px;
+    background-image: url("images/Web.Dev.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+
+.mains{
+    /* border: solid; */
+    width:55%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    color: #313131;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+.mains h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.button-signup{
+    width: 15%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sign-click{
+    width: 60%;
+    height: 45px;
+    background-color: #49AD09;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.sign-click:hover{
+   background-color: #313131;
+}
+
+
+.elipse-img{
+    width:15%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.elipse{
+    width: 30%;
+    height: 100px;
+    background-image: url("images/Ellipse\ 3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.develop{
+    width: 60%;
+    height: 350px;
+    /* borde/r: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.first-text1{
+    width: 50%;
+    height: 120px;
+    /* border: solid; */
+    text-align: center;
+    font-size: 25px;
+    color: #313131;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first-text1 span{
+    color: #49AD09;
+}
+
+.first-text2{
+    width: auto;
+    height: auto;
+    /* border: solid; */
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #514040;
+}
+
+
+.first-text3{
+    width: 35%;
+    height: 80px;
+    /* border: solid; */
+    display: flex;
+   
+    align-items: center;
+    gap: 20px;
+}
+
+.button-contact{
+    width: 160px;
+    height: 40px;
+    background-color: #49AD09;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button-contact:hover{
+    background-color: #514040;
+    cursor: pointer;
+}
+
+.first-text3 span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.next-block{
+    width: 100%;
+    height: 1200px;
+    background-image: url("images/Decorators.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* border: solid; */
+}
+
+.next-logo{
+    width: 100%;
+    height: 200px;
+    background-image: url("images/LOGO.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.specialization{
+    width: 100%;
+    height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    gap: 20px;
+}
+
+.specialization h1{
+    color: #313131;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.specialization h5{
+    color: #514040;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.special{
+    width: 100%;
+    height: 300px;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+.special1{
+    width: 20%;
+    height: 270px;
+    /* border: solid; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/wektor.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.special2{
+    width: 20%;
+    height: 270px;
+    /* border: solid; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/vector.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.webflow{
+    width: 100%;
+    height: 50px;
+    /* border: solid; */
+    text-align: center;
+}
+
+.reallyboy{
+    width: 90%;
+    height: 110px;
+    /* border: solid; */
+    color: #514040;
+    font-family:'Times New Roman', Times, serif
+    
+}
+
+
+.readme{
+    width: 90%;
+    height: 100px;
+    display: flex;
+   
+    align-items: center;
+}
+
+
+.readme p:hover{
+   color: #49AD09;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+
+
+.special_2{
+    width: 100%;
+    height: 300px;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+.spec-1{
+    width: 20%;
+    height: 270px;
+    /* border: solid; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/Rectangle.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.spec-2{
+    width: 20%;
+    height: 270px;
+    /* border: solid; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/php.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.learn-button{
+    width: 100%;
+    height: 100px;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.learn-button input{
+    width: 220px;
+    height: 50px;
+    background-color: #49AD09;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.learn-button input:hover{
+    cursor: pointer;
+    background: #514040;
+}
+
+
+
+.portfolio{
+    width: 100%;
+    height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+
+.portfolio h1{
+    color: #313131;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.portfolio h5{
+    color: #514040;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.portfolio-block{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    gap: 40px;
+    /* border: solid; */
+}
+
+.portfolio1{
+    width: 50%;
+    height: 700px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 70px;
+    
+}
+
+
+.portfolio2{
+    width: 50%;
+    height: 700px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 70px;
+}
+
+
+.left-block1{
+    width: 60%;
+    height: 280px;
+    /* border: solid; */
+}
+
+
+.img1{
+    width: 100%;
+    height: 230px;
+    background-image: url("images/Rectangle\ 377.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.fashion-txt{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fashion-txt h4:hover{
+    color: #49AD09;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.left-block2{
+    width: 60%;
+    height: 280px;
+    /* border: solid; */
+}
+
+.img-2{
+    background-image: url("images/Rectangle\ 379.png");
+}
+
+.right-block1{
+    width: 60%;
+    height: 280px;
+    /* border: solid; */
+}
+
+.right-block2{
+    width: 60%;
+    height: 280px;
+    /* border: solid; */
+}
+
+.img-3{
+    background-image: url("images/Rectangle\ 378.png");
+}
+
+.img-4{
+    background-image: url("images/Rectangle\ 380.png");
+}
+
+
+.projects{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects input{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: #49AD09;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.projects input:hover{
+    cursor: pointer;
+    background: #514040;
+}
+
+
+.testimonials{
+    width: 100%;
+    height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    gap: 20px;
+}
+
+
+.testimonials h1{
+    color: #313131;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.testimonials h5{
+    color: #514040;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.base{
+    width: 100%;
+    height: 350px;
+    background-image: url("images/Base\ \(1\).png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.base1{
+    width: 25%;
+    height: 250px;
+    /* border: solid; */
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.base1-1 h5{
+    color: #32435C;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.base1-1{
+    width: 75%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+.stars{
+    color: orange;
+}
+
+
+.rightleft{
+    width: 100%;
+    height: 100px;
+    /* border: solid; */
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.arrow{
+    width: 10%;
+    height: 70px;
+    /* border: solid; */
+    background-image: url("images/rightleft.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.pricing{
+    width: 100%;
+    height: 600px;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.for{
+    width: 25%;
+    height: 550px;
+    background-image: url("images/Rectangle 372 (1).png");
+    background: #FFFFFF;
+box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+}
+
+.starter{
+    width: 80%;
+    height: 170px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.starter h1{
+    font-size: 55px;
+}
+
+
+.checkmark{
+    width: 65%;
+    height: 180px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.request{
+    width: 50%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.request input{
+    width: 200px;
+    height: 50px;
+    background-color: #49AD09;
+    border: 1px solid;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+
+.request input:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #313131;
+}
+
+
+
+.contact{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact input{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: #49AD09;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.contact input:hover{
+    cursor: pointer;
+    background: #514040;
+}
+
+.last-block{
+    width: 100%;
+    height: 400px;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.webdev{
+    width: 20%;
+    height: 300px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #313131;
+
+}
+
+
+.last-txt1{
+    width: 70%;
+    height: 80px;
+    /* border: solid; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+
+.share{
+    width: 70%;
+    height: 50px;
+    /* border: solid; */
+    display: flex;
+   gap: 5px;
+   justify-content: center;
+
+}
+
+.fb{
+    width: 30%;
+    height: 50px;
+    background-image: url("images/fb.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tw{
+    width: 30%;
+    height: 50px;
+    background-image: url("images/tw.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.in{
+    width: 30%;
+    height: 50px;
+    background-image: url("images/in.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recources{
+    width: 20%;
+    height: 300px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #313131;
+}
+
+
+.company{
+    width: 20%;
+    height: 300px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #313131;
+}
+
+
+.touch{
+    width: 20%;
+    height: 300px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.touch input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #F2F2F2;
+}
+
+
+.end{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #313131;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
