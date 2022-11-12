@@ -66,3 +66,35 @@
 //     natural(x)
 // }
 // natural(50)
+
+
+
+let num = [12, -4, 6, -47, 32, -8, -27, 54, 17, 31];
+let pos = [];
+let neg = [];
+let final = 0
+let final2 = 0
+num.forEach(val1 =>{
+        if(val1 > 0){
+            pos.push(val1)
+        }
+    });
+    pos.forEach(val2 =>{
+        final = final +val2
+    })
+    console.log(final);
+   
+
+    num.forEach(val1 =>{
+        if(val1 < 0){
+            neg.push(val1)
+        }
+    });
+    neg.forEach(val2 => {
+        final2 = final2 + val2
+    })
+    console.log(final2);
+    
+  
+    
+
