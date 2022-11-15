@@ -69,32 +69,93 @@
 
 
 
-let num = [12, -4, 6, -47, 32, -8, -27, 54, 17, 31];
-let pos = [];
-let neg = [];
-let final = 0
-let final2 = 0
-num.forEach(val1 =>{
-        if(val1 > 0){
-            pos.push(val1)
-        }
-    });
-    pos.forEach(val2 =>{
-        final = final +val2
-    })
-    console.log(final);
+// let num = [12, -4, 6, -47, 32, -8, -27, 54, 17, 31];
+// let pos = [];
+// let neg = [];
+// let final = 0
+// let final2 = 0
+// num.forEach(val1 =>{
+//         if(val1 > 0){
+//             pos.push(val1)
+//         }
+//     });
+//     pos.forEach(val2 =>{
+//         final = final +val2
+//     })
+//     console.log(final);
    
 
-    num.forEach(val1 =>{
-        if(val1 < 0){
-            neg.push(val1)
-        }
-    });
-    neg.forEach(val2 => {
-        final2 = final2 + val2
-    })
-    console.log(final2);
+//     num.forEach(val1 =>{
+//         if(val1 < 0){
+//             neg.push(val1)
+//         }
+//     });
+//     neg.forEach(val2 => {
+//         final2 = final2 + val2
+//     })
+//     console.log(final2);
+
+
+
+let array = [
+    [1, 2, 3],
+    [2, 3, 4],
+    [6, 3, 2]
+  ]
+  
+   for (let i = 0; i < array.length; i++) {
+     alert(array[i][i])
+   }
     
   
+
+let matrix = [
+    [18, 2, 6],
+    [5, 1, 4],
+    [6, 3, 2],
+  ];
+  let max = 0;
+  matrix.forEach(function(array){
+   let max = Math.max(...array)
+    alert(max)
+  })
+
+
+
+let object = {
+    name : "Davit",
+     lastName: "Poghosyan",
+     age: 34,
+     country: "Armenia"
+   }
+   
+   alert(Object.keys(object).length)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
