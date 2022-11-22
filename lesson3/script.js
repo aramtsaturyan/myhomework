@@ -97,52 +97,194 @@
 
 
 
-let array = [
-    [1, 2, 3],
-    [2, 3, 4],
-    [6, 3, 2]
-  ]
+// let array = [
+//     [1, 2, 3],
+//     [2, 3, 4],
+//     [6, 3, 2]
+//   ]
   
-   for (let i = 0; i < array.length; i++) {
-     alert(array[i][i])
-   }
+//    for (let i = 0; i < array.length; i++) {
+//      alert(array[i][i])
+//    }
     
   
 
-let matrix = [
-    [18, 2, 6],
-    [5, 1, 4],
-    [6, 3, 2],
-  ];
-  let max = 0;
-  matrix.forEach(function(array){
-   let max = Math.max(...array)
-    alert(max)
-  })
+// let matrix = [
+//     [18, 2, 6],
+//     [5, 1, 4],
+//     [6, 3, 2],
+//   ];
+//   let max = 0;
+//   matrix.forEach(function(array){
+//    let max = Math.max(...array)
+//     alert(max)
+//   })
 
 
 
-let object = {
-    name : "Davit",
-     lastName: "Poghosyan",
-     age: 34,
-     country: "Armenia"
-   }
+// let object = {
+//     name : "Davit",
+//      lastName: "Poghosyan",
+//      age: 34,
+//      country: "Armenia"
+//    }
    
-   alert(Object.keys(object).length)
+//    alert(Object.keys(object).length)
+
+
+
+// let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130
+// };
+
+// let sum = 0;
+
+// for(let key in salaries){
+//     sum += salaries[key];
+// }
+
+// alert(sum)
+
+// let val =  (Object.values(salaries));
+
+
+// let add = val.reduce((aggr, num) =>{
+//     return aggr + num
+// });
+// console.log(add);
+
+
+
+// let empty = {};
+
+// empty.name = 'John';
+// empty.surName = 'Smith';
+// empty.name = 'Pete';
+// delete empty.name;
+// console.log(empty);
+
+
+// let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130
+// };
+
+
+// let sum = 0
+// for(let key in salaries){
+//     sum += salaries[key];
+// }
+
+// salaries.someChange = function(){
+//     this.Ann = 180
+//     }
+//     salaries.someChange();
+     
+
+
+// let num = 0;
+// for (key in salaries){
+//     num++;
+// }
+// console.log(sum / num);
+
+
+
+// let matrix = [
+//         [18, 2, 6],
+//         [5, 6, 4],
+//         [6, 3, 2],
+//       ];
+
+//       let num = 0;
+      
+//       matrix.forEach(val =>{
+//        num = val.reduce((el, el1) =>{
+//         return el +el1
+//        });
+//        if (num % 2 == 0){
+//         console.log(num);
+//     }
+//       })
+
+
+
+// var myArray = ['one', 'two', 'three', 'four', 'five'];
+// var rand = Math.floor(Math.random()*myArray.length);
+// var rValue = myArray[rand];
+// console.log(rValue),
+
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const randomIndex = Math.floor(Math.random() * (numbers.length - 1)); // генерируем случайный индекс в допустимом диапазоне
+// const result = numbers[randomIndex]; // извлекаем значение под случайным индексом
+// console.log(result);
+
+
+
+
+// let menu = {
+//     width: 100,
+//     height: 200,
+//     title: "multiply"
+// }
+
+// function multi (){
+//    return menu[key] * 2
+// }
+
+// for(key in menu) {
+//     if(typeof menu[key] === 'number'){
+        
+//         console.log(multi());
+//     }
+    
+// }
+
+// let menu = {
+//         width: 100,
+//         height: 200,
+//         title: "multiply"
+//     };
+
+//     let menu1 = {
+//         width: 100,
+//         height: 300,
+//         title: "multiply"
+//     };
+
+
+//     let obj = Object.assign(menu, menu1)
+//     console.log(obj);
 
 
 
 
 
+// let obj = {
+//     name: "name",
+//     surname: "surname",
+//     age: "age",
+// }
+
+// console.log(obj);
 
 
 
 
+// let menu = {
+//     width: 100,
+//     height: 200,
+//     title: "multiply"
+// };
 
 
-
-
+// let obj = Object.assign({}, menu)
+// obj.width = 200;
+// console.log(obj);
 
 
 
